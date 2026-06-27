@@ -1,6 +1,4 @@
 ---
 layout: home
-title: My Blog
+title: Home
 ---
-
-Welcome to my blog! Below are my latest posts:
