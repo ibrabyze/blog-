@@ -7,7 +7,6 @@ description: "A complete walkthrough of every module — keyword
 research through to published article. Every step shown."
 ---
 
-I Write a Fully Optimised SEO Article in 58 Minutes — Here's Every Step, Every Prompt, and the Exact Output
 By Ibrahim | SEO Content Engine OS · 9 min read
 
 Table of contents
