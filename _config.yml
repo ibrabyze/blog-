@@ -1,0 +1,13 @@
+title: Ibrahim Shuaib — SEO Content Engine OS™
+description: AI systems and SEO strategies for solo founders 
+  who want organic traffic without agencies.
+author: Ibrahim Shuaib
+url: "https://blog.ibrahimshuaib.com"
+baseurl: ""
+theme: minima
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
