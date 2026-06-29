@@ -1,22 +1,22 @@
 title: Ibrahim Shuaib — SEO Content Engine OS™
 description: >-
   AI systems and SEO strategies for solo founders
-  who want organic traffic without agencies or
-  expensive writers.
+  who want organic traffic without agencies.
 author: Ibrahim Shuaib
-email: oscontentengine@gmail.com
+email: ibrahimshuaib@gmail.com
 url: "https://blog.ibrahimshuaib.com"
 baseurl: ""
 
 theme: minima
 minima:
   skin: dark
+  logo: /assets/images/logo.svg
   date_format: "%B %-d, %Y"
   social_links:
     - { platform: linkedin,
         user_url: "https://www.linkedin.com/in/ibrahim-shuaib-2453252aa/" }
     - { platform: twitter,
-        user_url: "https://x.com/IbrahimSEOOS" }
+        user_url: "https://www.x.com/IbrahimSEOOS"  }
 
 show_excerpts: true
 excerpt_separator: "<!--more-->"
