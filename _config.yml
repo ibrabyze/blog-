@@ -4,7 +4,7 @@ description: >-
   who want organic traffic without agencies or
   expensive writers.
 author: Ibrahim Shuaib
-email: ibrahimshuaib@gmail.com
+email: oscontentengine@gmail.com
 url: "https://blog.ibrahimshuaib.com"
 baseurl: ""
 
@@ -14,9 +14,9 @@ minima:
   date_format: "%B %-d, %Y"
   social_links:
     - { platform: linkedin,
-        user_url: "https://www.linkedin.com/in/ibrahimshuaib" }
+        user_url: "https://www.linkedin.com/in/ibrahim-shuaib-2453252aa/" }
     - { platform: twitter,
-        user_url: "https://twitter.com/ibrahimshuaib" }
+        user_url: "https://x.com/IbrahimSEOOS" }
 
 show_excerpts: true
 excerpt_separator: "<!--more-->"
