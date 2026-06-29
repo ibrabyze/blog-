@@ -9,6 +9,7 @@ layout: default
     <h1 class="post-title p-name" itemprop="name headline">
       {{ page.title | escape }}
     </h1>
+
     <div class="post-meta-row">
       <time class="dt-published"
         datetime="{{ page.date | date_to_xmlschema }}"
@@ -18,36 +19,43 @@ layout: default
       &nbsp;·&nbsp;
       <span itemprop="author" itemscope
         itemtype="https://schema.org/Person">
-        <span itemprop="name">{{ page.author | default: site.author }}</span>
+        <span itemprop="name">
+          {{ page.author | default: site.author | escape }}
+        </span>
       </span>
       {% if page.reading_time %}
       &nbsp;·&nbsp; {{ page.reading_time }} min read
       {% endif %}
     </div>
+
     {% if page.description %}
     <p class="post-description" itemprop="description">
-      {{ page.description }}
+      {{ page.description | escape }}
     </p>
     {% endif %}
   </header>
 
-  <nav class="toc-box" id="toc-container" aria-label="Table of contents">
+  <nav class="toc-box" id="toc-container"
+    aria-label="Table of contents">
     <div class="toc-heading">Table of contents</div>
     <ol class="toc-list" id="toc-list"></ol>
   </nav>
 
-  <div class="post-content e-content" itemprop="articleBody" id="post-body">
+  <div class="post-content e-content"
+    itemprop="articleBody" id="post-body">
     {{ content }}
   </div>
 
   <div class="post-cta-box">
-    <p class="cta-headline">Try the system that produced this article</p>
+    <p class="cta-headline">
+      Try the system that produced this article
+    </p>
     <p>
       <a href="https://tool.ibrahimshuaib.com"
         target="_blank" rel="noopener">
         ⚡ Free keyword tool — Module 01
       </a>
-      &nbsp;·&nbsp; 20 keywords for your niche. No signup.
+      &nbsp;·&nbsp; 20 keywords. No signup.
     </p>
     <p>
       <a href="https://ibrahimshuaibseo.gumroad.com"
@@ -63,9 +71,10 @@ layout: default
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": {{ page.title | jsonify }},
-    "description": {{ page.description | default: site.description | jsonify }},
+    {% if page.description %}
+    "description": {{ page.description | jsonify }},
+    {% endif %}
     "datePublished": "{{ page.date | date_to_xmlschema }}",
-    "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
     "url": "{{ page.url | absolute_url }}",
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -74,17 +83,16 @@ layout: default
     "author": {
       "@type": "Person",
       "name": "Ibrahim Shuaib",
-      "url": "{{ site.url }}",
+      "url": "https://blog.ibrahimshuaib.com",
       "sameAs": [
         "https://www.linkedin.com/in/ibrahimshuaib",
-        "https://twitter.com/ibrahimshuaib",
-        "https://medium.com/@ibrahimshuaib"
+        "https://twitter.com/ibrahimshuaib"
       ]
     },
     "publisher": {
       "@type": "Person",
       "name": "Ibrahim Shuaib",
-      "url": "{{ site.url }}"
+      "url": "https://blog.ibrahimshuaib.com"
     }
     {% if page.keywords %}
     ,"keywords": {{ page.keywords | jsonify }}
@@ -95,22 +103,18 @@ layout: default
 </article>
 
 <script>
-(function(){
+(function() {
   var body = document.getElementById('post-body');
   var tocList = document.getElementById('toc-list');
-  var tocContainer = document.getElementById('toc-container');
+  var tocBox = document.getElementById('toc-container');
   if (!body || !tocList) return;
-
   var headings = body.querySelectorAll('h2, h3');
   if (headings.length < 2) {
-    tocContainer.style.display = 'none';
+    tocBox.style.display = 'none';
     return;
   }
-
   headings.forEach(function(h, i) {
-    if (!h.id) {
-      h.id = 'section-' + i;
-    }
+    if (!h.id) h.id = 'section-' + i;
     var li = document.createElement('li');
     if (h.tagName === 'H3') li.style.paddingLeft = '1rem';
     var a = document.createElement('a');
@@ -120,4 +124,13 @@ layout: default
     tocList.appendChild(li);
   });
 })();
+
+document.querySelectorAll('.faq-item').forEach(function(item) {
+  var q = item.querySelector('.faq-q');
+  if (q) {
+    q.addEventListener('click', function() {
+      item.classList.toggle('open');
+    });
+  }
+});
 </script>
