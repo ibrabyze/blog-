@@ -1,0 +1,97 @@
+---
+---
+
+@import "minima";
+
+/* ── Ibrahim Shuaib brand overrides ── */
+
+:root {
+  --gold: #F5B301;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.site-header {
+  border-top: 4px solid #F5B301;
+  border-bottom: 1px solid #30363d;
+}
+
+.site-title,
+.site-title:visited {
+  color: #F5B301 !important;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-nav .page-link {
+  color: #8b949e;
+  transition: color 0.2s;
+}
+
+.site-nav .page-link:hover {
+  color: #F5B301;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+.post-link {
+  color: #F5B301 !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.post-link:hover {
+  color: #FFD045 !important;
+  text-decoration: none;
+}
+
+a {
+  color: #F5B301;
+}
+
+a:hover {
+  color: #FFD045;
+}
+
+.site-footer {
+  border-top: 1px solid #30363d;
+}
+
+.site-footer,
+.footer-col {
+  color: #8b949e;
+}
+
+.post-meta {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.8rem;
+  color: #8b949e;
+}
+
+.page-content {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+pre, code {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+}
+
+blockquote {
+  border-left: 4px solid #F5B301;
+  background: #161b22;
+  padding: 12px 20px;
+  border-radius: 0 6px 6px 0;
+}
+
+.post-header {
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
