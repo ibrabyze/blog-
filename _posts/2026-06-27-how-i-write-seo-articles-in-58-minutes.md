@@ -8,6 +8,9 @@ description: "A complete walkthrough of the 6-step AI system I use to write full
 keywords: "AI SEO articles, write SEO content fast, SEO content system, solo founder SEO, keyword research without paid tools"
 reading_time: 9
 ---
+Twelve published articles. Ninety days. Fifty-eight minutes each. Zero agency fees.
+
+<!--more-->
 image: /assets/images/seo-articles-58-minutes.png
 
 toc:
@@ -189,27 +192,93 @@ About the author
 Ibrahim Shuaib is a solo founder and the builder of the SEO Content Engine OS — a 7-module, 28-prompt Notion system for solo founders who need to produce optimised SEO content without an agency or writing team. He built the system out of financial necessity after spending hours on articles that ranked nowhere, and has used it to publish 12 articles in 90 days. The article you just read was written using the same system it describes.
 Visit SEO Content Engine OS → | Follow on Twitter/X →
 
-Frequently asked questions {#faq}
-Can you use AI to write SEO articles?
-Yes — but only if you use AI inside a structured workflow rather than as a single open-ended prompt. AI tools produce fluent drafts, but a rankable SEO article also requires keyword intent alignment, semantic depth, competitor gap analysis, and on-page optimisation. Used without a system, AI content tends to be generic, surface-level, and invisible in search results. Used inside a sequential prompt workflow where each module feeds the next, the output is categorically different.
-How long does it take to write an SEO article with AI?
-With a structured AI prompt system, a fully optimised SEO article takes approximately 58 minutes from blank page to publish-ready draft. That breaks down as 8 minutes for keyword and intent validation, 10 minutes for competitor gap analysis, 7 minutes for outline generation, 20 minutes for section-by-section drafting, 8 minutes for on-page optimisation, and 5 minutes for a final readability and conversion edit. Without a system, the same process typically takes 4–6 hours.
-Does Google penalise AI-written content?
-Google does not penalise content for being AI-written. According to Google's own helpful content guidelines, what Google targets is low-quality, unhelpful content — regardless of how it was produced. The risk with AI content is not the origin; it is the output. Mass-generated, unedited, intent-misaligned articles violate those guidelines. An AI-assisted article that demonstrates genuine expertise, covers a topic with real depth, and satisfies search intent is treated the same as any other high-quality page.
-What is the best way to use AI prompts for SEO blog posts?
-The most effective way to use AI prompts for SEO blog posts is to run a separate, targeted prompt for each stage of the writing process — and to pass the output of each stage into the next. Each stage — intent research, gap analysis, outline, draft, optimisation, edit — requires different thinking and a different prompt structure. A single "write me an article about X" prompt collapses seven distinct jobs into one instruction and breaks the input-output chain, which is why the output consistently lands flat regardless of which AI tool you use.
-How do I make sure my AI-written article actually ranks?
-To give an AI-written article a genuine chance of ranking, it needs to satisfy four conditions: match the dominant search intent for the target keyword, reflect the structure Google is already rewarding in current top results, cover the semantic entities and related topics competitors include, and carry deliberate on-page optimisation across title tag, meta description, headers, and internal links. Meeting all four requires a sequential workflow where each step builds on the last — not a single AI prompt.
-Is ChatGPT good enough for writing SEO content, or do I need a dedicated SEO tool?
-Neither ChatGPT nor a dedicated AI SEO tool wins on its own — the system around the tool is what determines output quality. ChatGPT used freehand produces generic drafts. A dedicated SEO tool used without a structured writing workflow produces optimised outlines attached to shallow content. The combination that works is a deliberate prompt sequence — covering intent research, gap analysis, structured drafting, and on-page optimisation — run inside whichever tool you already have access to.
-How much does it cost to produce SEO content without an agency?
-Using an AI prompt system, the cost of producing a fully optimised SEO article drops to approximately $24.75 per article — calculated as a one-time $297 system purchase divided across 12 articles in a 90-day period. By comparison, SEO agencies typically charge $300–$800 per article and freelance writers charge $100–$400. Unlike agency or freelance costs, a one-time system purchase does not scale with volume — the more articles you produce, the lower the effective cost per article becomes.
-What type of content works best with an AI writing workflow?
-AI prompt workflows produce the strongest results for informational and commercial SEO articles — how-to guides, system walkthroughs, comparison pieces, and thought leadership content where structure, depth, and keyword alignment determine ranking performance. The workflow is less suited to pure e-commerce product pages, highly technical content requiring domain expertise, or journalism that depends on original reporting. For solo founders and freelancers producing three to six strategic articles per month, the format is a direct fit.
+<div class="faq-section" id="faq">
+<h2>Frequently asked questions</h2>
+
+<div class="faq-item">
+<div class="faq-q">Can AI really write SEO articles that rank?</div>
+<div class="faq-a">Yes, but only when structured correctly. Generic AI prompts produce generic content that mirrors what already ranks. The 6-step system structures the AI with specific competitor gap analysis and section-by-section instructions that produce content targeting gaps in existing results — which is why it ranks.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q">How long does this process actually take?</div>
+<div class="faq-a">The full 6-step process takes 58 minutes on average. Keyword research: 8 minutes. Competitor analysis: 10 minutes. Outline: 7 minutes. Writing all sections: 20 minutes. SEO pass: 8 minutes. Final edit: 5 minutes. Total: 58 minutes.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q">Do I need a paid SEO tool like Ahrefs or Surfer SEO?</div>
+<div class="faq-a">No. Every step uses Claude AI or ChatGPT. The keyword research module is available free at tool.ibrahimshuaib.com — no subscription required.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q">What AI model works best for this system?</div>
+<div class="faq-a">Claude Sonnet is recommended for modules requiring long structured output — particularly the article writing and competitor gap analysis steps. GPT-4o works on all modules. The system is tested on both.</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-q">Is this a course or a template?</div>
+<div class="faq-a">Neither. The SEO Content Engine OS is a connected system of 28 AI prompts across 7 modules. You copy each prompt, paste into Claude or ChatGPT, and follow the output sequence. No studying. No video watching. Just the system.</div>
+</div>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can AI really write SEO articles that rank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but only when structured correctly. Generic AI prompts produce generic content that mirrors what already ranks. The 6-step system structures the AI with specific competitor gap analysis and section-by-section instructions that produce content targeting gaps in existing results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does this process actually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The full 6-step process takes 58 minutes on average. Keyword research: 8 minutes. Competitor analysis: 10 minutes. Outline: 7 minutes. Writing all sections: 20 minutes. SEO pass: 8 minutes. Final edit: 5 minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a paid SEO tool like Ahrefs or Surfer SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Every step uses Claude AI or ChatGPT. The keyword research module is available free at tool.ibrahimshuaib.com with no subscription required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What AI model works best for this system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Claude Sonnet is recommended for modules requiring long structured output. GPT-4o works on all modules. The system is tested on both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this a course or a template?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neither. The SEO Content Engine OS is a connected system of 28 AI prompts across 7 modules. You copy each prompt, paste into Claude or ChatGPT, and follow the output sequence."
+      }
+    }
+  ]
+}
+</script>
+
+<script>
+document.querySelectorAll('.faq-item').forEach(function(item){
+  item.querySelector('.faq-q').addEventListener('click', function(){
+    item.classList.toggle('open');
+  });
+});
+</script>
 
 
 .
 
-Write normally. Use ## for headings. Use **bold** for emphasis.
-
-Every paragraph just flows naturally below the other.
