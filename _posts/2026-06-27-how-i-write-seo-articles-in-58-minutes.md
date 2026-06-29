@@ -5,8 +5,9 @@ title: "How I Write Fully Optimised SEO Articles in 58 Minutes"
 date: 2026-06-26
 author: Ibrahim Shuaib
 description: "A complete walkthrough of the 6-step AI system I use to write fully optimised SEO articles in 58 minutes — no agency, no writer, no guesswork. Every prompt shown."
-keywords: "AI SEO articles, write SEO content fast, SEO content system, solo founder SEO, keyword research without tools"
+keywords: "AI SEO articles, write SEO content fast, SEO content system, solo founder SEO, keyword research without paid tools"
 reading_time: 9
+---
 image: /assets/images/seo-articles-58-minutes.png
 
 toc:
