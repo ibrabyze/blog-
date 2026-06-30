@@ -189,7 +189,7 @@ The price is at its lowest right now — this is the pre-promotion rate before t
 <div class="author-box">
 <p class="author-box-label">About the author</p>
 <p>Ibrahim Shuaib is a solo founder and the builder of the SEO Content Engine OS — a 7-module, 28-prompt Notion system for solo founders who need to produce optimised SEO content without an agency or writing team. He built the system out of financial necessity after spending hours on articles that ranked nowhere, and has used it to publish 12 articles in 90 days. The article you just read was written using the same system it describes.</p>
-<p><a href="https://ibrahimshuaib.com" target="_blank" rel="noopener">Visit SEO Content Engine OS →</a> &nbsp;|&nbsp; <a href="https://twitter.com/ibrahimshuaib" target="_blank" rel="noopener">Follow on Twitter/X →</a></p>
+<p><a href="https://ibrahimshuaib.com" target="_blank" rel="noopener">Visit SEO Content Engine OS →</a> &nbsp;|&nbsp; <a href="https://https://x.com/IbrahimSEOOS" target="_blank" rel="noopener">Follow on Twitter/X →</a></p>
 </div>
 
 <div class="faq-section" id="faq">
