@@ -5,15 +5,6 @@ title: "How to Do Keyword Research Without Paying for Tools (The 60-Second SERP 
 date: 2026-07-02
 author: Ibrahim Shuaib
 description: "I cancelled my $89 keyword tool after 143 impressions in 3 months. Here is the free audit I use instead — and why it works better."
-keywords: "keyword research without paying for tools, free keyword research, keyword research without ahrefs, SEO keyword research solo founder"
-reading_time: 9
----
----
-layout: post
-title: "How to Do Keyword Research Without Paying for Tools (The 60-Second SERP Audit)"
-date: 2026-07-02
-author: Ibrahim Shuaib
-description: "I cancelled my $89 keyword tool after 143 impressions in 3 months. Here is the free audit I use instead — and why it works better."
 keywords: "keyword research without paying for tools, free keyword research, keyword research without ahrefs, SEO keyword research solo founder, 60 second SERP audit"
 reading_time: 11
 ---
