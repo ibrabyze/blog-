@@ -3,19 +3,19 @@ description: >-
   AI systems and SEO strategies for solo founders
   who want organic traffic without agencies.
 author: Ibrahim Shuaib
-email: ibrahimshuaib@gmail.com
+email: oscontentengine@gmail.com.com
 url: "https://blog.ibrahimshuaib.com"
 baseurl: ""
 
 theme: minima
+minima:
+  date_format: "%B %-d, %Y"
+  social_links:
+    twitter: IbrahimSEOOS
+    linkedin: ibrahim-shuaib-2453252aa
 
 show_excerpts: true
 excerpt_separator: "<!--more-->"
-
-minima:
-  social_links:
-    twitter: ibrahimshuaib
-    linkedin: ibrahimshuaib
 
 defaults:
   - scope:
@@ -24,6 +24,7 @@ defaults:
     values:
       layout: "post"
       author: "Ibrahim Shuaib"
+      og_image: "/assets/images/og-default.png"
 
 plugins:
   - jekyll-feed
