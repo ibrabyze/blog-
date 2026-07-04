@@ -35,21 +35,62 @@ layout: default
     {% endif %}
   </header>
 
-  <nav class="toc-box" id="toc-container"
-    aria-label="Table of contents">
+  <!-- Auto-generated TOC -->
+  <nav class="toc-box" id="toc-container" aria-label="Table of contents">
     <div class="toc-heading">Table of contents</div>
     <ol class="toc-list" id="toc-list"></ol>
   </nav>
+
+  <!-- Funnel banner — above fold, below TOC -->
+  <div class="funnel-banner">
+    <div class="funnel-banner-left">
+      <span class="funnel-banner-label">FREE TOOL</span>
+      <span class="funnel-banner-text">Try Module 01 — keyword research in 60 seconds, no signup</span>
+    </div>
+    <a href="https://tool.ibrahimshuaib.com"
+      target="_blank" rel="noopener"
+      class="funnel-banner-btn">
+      Try it free →
+    </a>
+  </div>
 
   <div class="post-content e-content"
     itemprop="articleBody" id="post-body">
     {{ content }}
   </div>
 
-  <div class="post-cta-box">
-    <p class="cta-headline">
-      Try the system that produced this article
+  <!-- Email capture — mid-article funnel -->
+  <div class="email-capture-box" id="email-capture">
+    <div class="email-capture-label">WEEKLY SYSTEMS</div>
+    <h3 class="email-capture-headline">Get the next article before it's published.</h3>
+    <p class="email-capture-sub">
+      Solo founder SEO strategies, module walkthroughs, and real results — 
+      delivered to your inbox. No pitch. No filler.
     </p>
+    <div class="email-capture-form">
+      <input
+        type="email"
+        id="email-input"
+        class="email-capture-input"
+        placeholder="your@email.com"
+        autocomplete="email">
+      <button
+        class="email-capture-btn"
+        onclick="submitEmail()">
+        Subscribe →
+      </button>
+    </div>
+    <div class="email-capture-note">
+      No spam. Unsubscribe any time.
+    </div>
+    <div class="email-capture-success" id="email-success">
+      ✓ You're in. Watch your inbox.
+    </div>
+  </div>
+
+  <!-- CTA box — bottom funnel -->
+  <div class="post-cta-box">
+    <p class="cta-headline">Try the system that produced this article</p>
     <p>
       <a href="https://tool.ibrahimshuaib.com"
         target="_blank" rel="noopener">
@@ -57,15 +98,33 @@ layout: default
       </a>
       &nbsp;·&nbsp; 20 keywords. No signup.
     </p>
+    <p style="margin-top:10px">
+      <a href="https://www.ibrahimshuaib.com/"
+        target="_blank" rel="noopener">
+        See the full 7-module system →
+      </a>
+    </p>
     <p>
       <a href="https://ibrahimshuaibseo.gumroad.com"
         target="_blank" rel="noopener noreferrer"
         class="cta-main-link">
-        Get the full SEO Content Engine OS™ — $297 →
+        Get the SEO Content Engine OS™ — $297 →
       </a>
     </p>
   </div>
 
+  <!-- Author box -->
+  <div class="author-box">
+    <p class="author-box-label">About the author</p>
+    <p>Ibrahim Shuaib is a solo founder from Lagos, Nigeria and the
+    creator of the <a href="https://ibrahimshuaib.com" target="_blank" rel="noopener">SEO Content Engine OS™</a>
+    — a 7-module, 28-prompt Notion system for solo founders who need
+    to produce optimised SEO content without an agency or writing team.
+    Follow on <a href="https://x.com/IbrahimSEOOS" target="_blank" rel="noopener">X</a>
+    and <a href="https://www.linkedin.com/in/ibrahim-shuaib-2453252aa/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+  </div>
+
+  <!-- Article schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -75,18 +134,25 @@ layout: default
     "description": {{ page.description | jsonify }},
     {% endif %}
     "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.modified_date | default: page.date | date_to_xmlschema }}",
     "url": "{{ page.url | absolute_url }}",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "{{ page.url | absolute_url }}"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/images/og-default.png",
+      "width": 1200,
+      "height": 630
     },
     "author": {
       "@type": "Person",
       "name": "Ibrahim Shuaib",
       "url": "https://blog.ibrahimshuaib.com",
       "sameAs": [
-        "https://www.linkedin.com/in/ibrahimshuaib",
-        "https://twitter.com/ibrahimshuaib"
+        "https://www.linkedin.com/in/ibrahim-shuaib-2453252aa/",
+        "https://x.com/IbrahimSEOOS"
       ]
     },
     "publisher": {
@@ -103,20 +169,18 @@ layout: default
 </article>
 
 <script>
+/* Auto-generate TOC from h2/h3 headings */
 (function() {
   var body = document.getElementById('post-body');
   var tocList = document.getElementById('toc-list');
   var tocBox = document.getElementById('toc-container');
   if (!body || !tocList) return;
   var headings = body.querySelectorAll('h2, h3');
-  if (headings.length < 2) {
-    tocBox.style.display = 'none';
-    return;
-  }
+  if (headings.length < 2) { tocBox.style.display = 'none'; return; }
   headings.forEach(function(h, i) {
     if (!h.id) h.id = 'section-' + i;
     var li = document.createElement('li');
-    if (h.tagName === 'H3') li.style.paddingLeft = '1rem';
+    if (h.tagName === 'H3') li.style.paddingLeft = '1.1rem';
     var a = document.createElement('a');
     a.href = '#' + h.id;
     a.textContent = h.textContent;
@@ -125,6 +189,7 @@ layout: default
   });
 })();
 
+/* FAQ accordion */
 document.querySelectorAll('.faq-item').forEach(function(item) {
   var q = item.querySelector('.faq-q');
   if (q) {
@@ -133,4 +198,22 @@ document.querySelectorAll('.faq-item').forEach(function(item) {
     });
   }
 });
+
+/* Email capture */
+function submitEmail() {
+  var email = document.getElementById('email-input').value.trim();
+  if (!email || !email.includes('@')) {
+    alert('Please enter a valid email address.');
+    return;
+  }
+  var btn = document.querySelector('.email-capture-btn');
+  btn.disabled = true;
+  btn.textContent = 'Subscribing...';
+  /* Replace with your EmailJS or ConvertKit call here */
+  setTimeout(function() {
+    document.querySelector('.email-capture-form').style.display = 'none';
+    document.querySelector('.email-capture-note').style.display = 'none';
+    document.getElementById('email-success').style.display = 'block';
+  }, 600);
+}
 </script>
