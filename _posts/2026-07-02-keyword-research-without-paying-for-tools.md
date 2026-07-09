@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "How to Do Keyword Research Without Paying for Tools (The 60-Second SERP Audit)"
