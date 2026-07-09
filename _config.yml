@@ -1,22 +1,25 @@
-title: Ibrahim Shuaib — SEO Content Engine OS™
+title: "Ibrahim Shuaib — SEO Content Engine OS™"
 description: >-
   AI systems and SEO strategies for solo founders
   who want organic traffic without agencies.
-author: Ibrahim Shuaib
-email: oscontentengine@gmail.com.com
+author: "Ibrahim Shuaib"
+email: "oscontentengine@gmail.com"
 url: "https://blog.ibrahimshuaib.com"
 baseurl: ""
 
-theme: minima
-minima:
-  date_format: "%B %-d, %Y"
-  social_links:
-    twitter: IbrahimSEOOS
-    linkedin: ibrahim-shuaib-2453252aa
+# SEO & Social Integration Matrix (For jekyll-seo-tag)
+twitter:
+  username: IbrahimSEOOS
+social:
+  name: "Ibrahim Shuaib"
+  links:
+    - https://x.com/IbrahimSEOOS
+    - https://www.linkedin.com/in/ibrahim-shuaib-2453252aa
 
 show_excerpts: true
 excerpt_separator: "<!--more-->"
 
+# Global Defaults Matrix
 defaults:
   - scope:
       path: ""
@@ -26,6 +29,7 @@ defaults:
       author: "Ibrahim Shuaib"
       og_image: "/assets/images/og-default.png"
 
+# Active System Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
