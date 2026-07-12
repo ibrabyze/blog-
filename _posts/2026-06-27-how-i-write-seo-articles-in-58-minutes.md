@@ -18,6 +18,8 @@ Here's the part most people get wrong: the problem with your AI content isn't th
 
 I was in both traps — the expensive agency and the wasted Sunday. So I built a way out: a 7-module, 28-prompt system inside Notion that takes me from blank page to fully optimised, published article in 58 minutes.
 
+I spent weeks meticulously configuring isolated prompt chains because the old-school distribution methods are structurally broken for lean operators. When you lay bare the raw unit economics of scaling traffic, analyzing an [seo content engine vs hiring an agency](/2026/07/12/seo-content-engine-hiring-agency.html) reveals that manual writing burns your product development hours while traditional agency retainers simply burn your cash. I didn't need another generic text generator; I needed a deterministic execution framework that automated the heavy cognitive lifting of editorial search strategy.
+
 This is my first published article using the system — and it was written using the exact workflow I'm about to show you. Every step. Every prompt. The real output each one produces. No theory.
 
 Let's get into it.
