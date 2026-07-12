@@ -69,8 +69,6 @@ Your $3,000 buys $1,050 worth of actual content. And that content is usually wri
 
 For a bootstrapped solo founder, this is not a growth strategy. It is a slow drain on your runway before your site ever gains traction.
 
----
-
 ### The Tech Stack Fallacy: Dismantling the Mandatory $500/mo Tool Suite
 Agencies justify their fees by pointing to expensive software. And SEO tool companies spend millions convincing you that a $150 to $200 monthly subscription is the only way to find keywords. This is a manufactured dependency.
 
