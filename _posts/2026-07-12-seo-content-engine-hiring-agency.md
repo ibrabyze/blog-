@@ -28,7 +28,7 @@ That experience is what built the SEO Content Engine OS™ — and it is why I c
 
 This guide breaks down both options honestly. Then it introduces a third path that most growth advice ignores entirely.
 
-![Comparison Matrix: Manual Writing vs Marketing Agency vs Content Engine](/assets/images/seo-model-comparison.jpg)
+![Comparison Matrix: Manual Writing vs Marketing Agency vs Content Engine](/assets/images/seo-models-comparison.jpg)
 
 ---
 
