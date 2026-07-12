@@ -71,7 +71,7 @@ For a bootstrapped solo founder, this is not a growth strategy. It is a slow dra
 
 ---
 
-###The Tech Stack Fallacy: Dismantling the Mandatory $500/mo Tool Suite
+### The Tech Stack Fallacy: Dismantling the Mandatory $500/mo Tool Suite
 Agencies justify their fees by pointing to expensive software. And SEO tool companies spend millions convincing you that a $150 to $200 monthly subscription is the only way to find keywords. This is a manufactured dependency.
 
 These tools do not have secret access to search data. They pull information from public sources, package it up, and charge you a monthly fee to see it. They also give new sites misleading signals — telling you a keyword is too competitive when a more specific version of it is wide open.
