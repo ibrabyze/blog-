@@ -451,14 +451,28 @@ footer{border-top:1px solid var(--border);padding:48px 0 32px}
 .sticky-cta .btn{width:100%}
 
 @media(max-width:980px){
-  .nav-links{display:none}
+  .nav-links{gap:20px}
 }
 @media(max-width:640px){
   .wrap{padding:0 20px}
   .blog-container{padding-top:42px}
-  .nav-cta .btn-ghost{display:none}
-  footer{padding-bottom:90px}
-  .sticky-cta{display:block}
+  .nav-cta{display:none}
+  footer{padding-bottom:32px}
+  
+  .nav-inner {
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    text-align: center;
+  }
+  .nav-links {
+    display: flex !important;
+    gap: 20px;
+  }
+  .nav-link {
+    font-size: 13.5px;
+    padding: 6px 4px;
+  }
 }
 </style>
 </head>
