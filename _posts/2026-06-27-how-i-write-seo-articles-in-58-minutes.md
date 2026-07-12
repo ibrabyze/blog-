@@ -56,6 +56,8 @@ Most people start here by confirming a keyword has search volume and moving on. 
 
 The prompt for this step does one specific job: it takes your target keyword and returns the dominant search intent, the likely SERP format Google is rewarding, and three long-tail variations worth targeting inside the article. For the keyword "how to write SEO articles with AI," the output tells me this is an informational query with a strong how-to format bias — meaning Google wants steps, not opinions. That single insight shapes every decision that follows.
 
+If you want to see how I validate a keyword before running it through Module 01 — the [60-second manual audit](/2026/07/02/keyword-research-without-paying-for-tools.html) I use first is broken down in full here.
+
 Time: 8 minutes.
 
 Output — feeds directly into Step 2: A one-page intent brief containing: dominant search intent, SERP format signal, and three long-tail keyword variations. This brief travels into every subsequent module as a reference document. Without it, Step 2 has no benchmark to measure competitor gaps against.
@@ -185,6 +187,8 @@ Every article you have published using the old method — the agency invoice, th
 You now know exactly how the system works. The gap between knowing and running it is smaller than you think — but it is still a gap. Every week you spend producing articles without a structured workflow is another week of agency fees, wasted Sundays, and content that builds nothing.
 
 The SEO Content Engine OS is the complete system — all 7 modules, all 28 prompts, built inside Notion and ready to run today. One payment of $297. No subscription. No expiry. No starting from scratch.
+
+New to keyword research entirely? Before running this system, read how I [identify rankable keywords in 60 seconds](/2026/07/02/keyword-research-without-paying-for-tools.html) without any paid tool.
 
 **[Get the SEO Content Engine OS →](https://ibrahimshuaibseo.gumroad.com)**
 
