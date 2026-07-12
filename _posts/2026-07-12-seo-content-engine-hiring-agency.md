@@ -12,8 +12,7 @@ reading_time: 11
 
 *By Ibrahim Shuaib — Solo Founder, Nigeria. Builder of the SEO Content Engine OS™.*
 
-![Solo founder using an SEO content engine instead of hiring a marketing agency](/assets/images/seo-content-engine-vs-agency-hero.jpg)
-
+![Solo founder using an SEO content engine instead of hiring a marketing agency]({{ site.baseurl }}/assets/images/seo-content-engine-vs-agency-hero.jpg)
 ---
 
 ### The Invisible Trap of Bootstrapped Search Strategy
@@ -24,8 +23,7 @@ I have watched founders run out of money paying agency retainers before their si
 
 This guide breaks down both options honestly. Then it introduces a third path that most growth advice ignores entirely.
 
-![Comparison Matrix: Manual Writing vs Marketing Agency vs Content Engine](/assets/images/seo-model-comparison.jpg)
-
+![Comparison Matrix: Manual Writing vs Marketing Agency vs Content Engine]({{ site.baseurl }}/assets/images/seo-model-comparison.jpg)
 ---
 
 ### Is an SEO Content Engine Better Than Hiring an Agency for Solo Founders?
@@ -111,6 +109,7 @@ Operational Layout: Deploying an Engine Inside a Unified Workspace
 To execute this at scale without drowning in administrative chaos, you must house this system inside a unified workspace that functions as a single source of truth. Fragmented text files split across disconnected cloud folders and loose spreadsheets are silent killers of production velocity. When your content architecture is decentralized, an operator wastes up to 45 minutes per article simply shifting data between tabs.
 
 A high-velocity engine eliminates this structural friction by organizing keyword discovery, content creation queues, and internal linking models within a single relational database dashboard.
+![Notion SEO Template Pipeline Dashboard]({{ site.baseurl }}/assets/images/notion-seo-engine-workspace.jpg)
 
 This is exactly why a structured Notion SEO template for freelancers and independent builders provides a far clearer operating interface than a complex enterprise project tracker. You do not need bloated multi-user task dependencies; you need a lean command center where a single view connects your seed research directly to your modular generation pipelines. This centralized layout guarantees that your systems-editor workflow remains entirely frictionless from raw intent extraction to live web index.
 
