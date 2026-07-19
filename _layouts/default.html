@@ -9,6 +9,10 @@
 <title>{{ page.title | default: "SEO Content Engine OS™ Blog" }}</title>
 <meta name="description" content="Systems and organic traffic strategies for solo founders.">
 
+<!-- Critical: loads style.scss (table/FAQ/TOC styling) and all SEO meta/schema tags -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{% include head-custom.html %}
+
 <!-- Core Favicon Matrix -->
 <link rel="shortcut icon" href="https://www.ibrahimshuaib.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="48x48" href="https://www.ibrahimshuaib.com/favicon-32x32.png">
