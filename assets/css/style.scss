@@ -97,32 +97,86 @@ a:hover { color: #FFD045; }
   margin-top: 2rem;
 }
 
-.post-content table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9rem;
-  margin: 1.5rem 0;
+/* ━━━━━━━━ TABLES — hardened to override any theme defaults ━━━━━━━━ */
+.post-content table,
+article table,
+.faq-section table {
+  width: 100% !important;
+  table-layout: fixed !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  font-size: 0.85rem !important;
+  margin: 1.75rem 0 !important;
+  background: #0d1117 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
 }
 
-.post-content th {
-  background: #161b22;
-  border: 1px solid #30363d;
-  padding: 0.6rem 1rem;
-  text-align: left;
-  color: #F5B301;
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+.post-content thead,
+article thead {
+  background: #161b22 !important;
 }
 
-.post-content td {
-  border: 1px solid #30363d;
-  padding: 0.6rem 1rem;
-  color: #8b949e;
-  line-height: 1.5;
+.post-content th,
+article th {
+  background: #161b22 !important;
+  border: 1px solid #30363d !important;
+  padding: 0.65rem 0.85rem !important;
+  text-align: left !important;
+  color: #F5B301 !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  vertical-align: middle !important;
 }
 
-.post-content tr:hover td { background: #161b22; }
+.post-content td,
+article td {
+  border: 1px solid #30363d !important;
+  padding: 0.65rem 0.85rem !important;
+  color: #c9d1d9 !important;
+  line-height: 1.5 !important;
+  font-size: 0.85rem !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  vertical-align: top !important;
+}
+
+.post-content tr:nth-child(even) td,
+article tr:nth-child(even) td {
+  background: rgba(255,255,255,0.02) !important;
+}
+
+.post-content tr:hover td,
+article tr:hover td {
+  background: #161b22 !important;
+}
+
+.post-content table strong,
+article table strong {
+  color: #F5B301 !important;
+}
+
+/* Mobile — allow horizontal scroll instead of forced squeeze */
+@media (max-width: 640px) {
+  .post-content table,
+  article table {
+    display: block !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  .post-content th,
+  .post-content td,
+  article th,
+  article td {
+    white-space: nowrap !important;
+  }
+}
 
 .post-content blockquote {
   border-left: 3px solid #F5B301;
