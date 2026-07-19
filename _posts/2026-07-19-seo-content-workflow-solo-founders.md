@@ -20,7 +20,7 @@ I built this because I was starting from zero — no existing pages, no domain a
 
 Here's exactly what I did, step by step, starting from the same blank page you're probably staring at right now. 
 
-![Chained AI prompt sequence running in Claude](/assets/images/hero-chained-prompts.png)
+![Chained AI prompt sequence in Notion](/assets/images/hero-chained-prompts.png)
 
 ## Why Most SEO Content Workflows Assume You Already Have Something You Don't
 
