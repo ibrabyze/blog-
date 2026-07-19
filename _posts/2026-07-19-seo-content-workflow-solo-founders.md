@@ -18,9 +18,9 @@ Here's what this article is instead: the exact chained prompt sequence I run mys
 
 I built this because I was starting from zero — no existing pages, no domain authority, no marketing budget — and every guide I found assumed I already had at least one of those. This one doesn't.
 
-Here's exactly what I did, step by step, starting from the same blank page you're probably staring at right now.
+Here's exactly what I did, step by step, starting from the same blank page you're probably staring at right now. 
 
-![SCREENSHOT PLACEHOLDER — hero-chained-prompts](/assets/images/hero-chained-prompts.png)
+![Chained AI prompt sequence running in Claude](/assets/images/hero-chained-prompts.png)
 
 ## Why Most SEO Content Workflows Assume You Already Have Something You Don't
 
@@ -94,7 +94,7 @@ This article followed the same chain: the keyword validation and gap analysis pr
 
 Here's what my Search Console dashboard actually shows across my published articles right now, and I'm framing this with total honesty: 3 clicks, 23 impressions, average position 10.7, over the last 28 days.
 
-![[SCREENSHOT PLACEHOLDER — gsc-performance-28day](/assets/images/gsc-performance-28day.png)
+![Google Search Console performance dashboard, 28-day window](/assets/images/gsc-performance-28day.png)
 Small. Real. Climbing. That's more than the hypothetical math most competing guides offer instead — Mergeflo's own published example is explicit about being hypothetical, not measured performance.
 
 ## Starting From Zero Domain Authority: SEO for Solo Founders With No Budget
