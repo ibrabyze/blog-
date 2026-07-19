@@ -180,19 +180,6 @@ This is built for one specific person: a solo founder, freelancer, or indie cons
 
 If that is you, the next section is where to go.
 
-## The system is yours to run
-
-Every article you have published using the old method — the agency invoice, the six-hour Sunday, the ChatGPT draft that ranked nowhere — was not a failure of effort. It was a failure of sequence. You had the right instinct, the right tools, and the wrong process. What this article showed you is that the process is fixable, the fix is specific, and the results are measurable. Fifty-eight minutes. Twelve articles. $24.75 a piece. Those numbers are not projections — they are the output of a system that runs the same way every single time you open it.
-
-You now know exactly how the system works. The gap between knowing and running it is smaller than you think — but it is still a gap. Every week you spend producing articles without a structured workflow is another week of agency fees, wasted Sundays, and content that builds nothing.
-
-The SEO Content Engine OS is the complete system — all 7 modules, all 28 prompts, built inside Notion and ready to run today. One payment of $297. No subscription. No expiry. No starting from scratch.
-
-New to keyword research entirely? Before running this system, read how I [identify rankable keywords in 60 seconds](/2026/07/02/keyword-research-without-paying-for-tools.html) without any paid tool.
-
-**[Get the SEO Content Engine OS →](https://ibrahimshuaibseo.gumroad.com)**
-
-The price is at its lowest right now — this is the pre-promotion rate before the official launch. If you have read this far, you already know whether it is for you.
 
 <div class="author-box">
 <p class="author-box-label">About the author</p>
@@ -317,3 +304,17 @@ The price is at its lowest right now — this is the pre-promotion rate before t
   ]
 }
 </script>
+
+## The system is yours to run
+
+Every article you have published using the old method — the agency invoice, the six-hour Sunday, the ChatGPT draft that ranked nowhere — was not a failure of effort. It was a failure of sequence. You had the right instinct, the right tools, and the wrong process. What this article showed you is that the process is fixable, the fix is specific, and the results are measurable. Fifty-eight minutes. Twelve articles. $24.75 a piece. Those numbers are not projections — they are the output of a system that runs the same way every single time you open it.
+
+You now know exactly how the system works. The gap between knowing and running it is smaller than you think — but it is still a gap. Every week you spend producing articles without a structured workflow is another week of agency fees, wasted Sundays, and content that builds nothing.
+
+The SEO Content Engine OS is the complete system — all 7 modules, all 28 prompts, built inside Notion and ready to run today. One payment of $297. No subscription. No expiry. No starting from scratch.
+
+New to keyword research entirely? Before running this system, read how I [identify rankable keywords in 60 seconds](/2026/07/02/keyword-research-without-paying-for-tools.html) without any paid tool.
+
+**[Get the SEO Content Engine OS →](https://ibrahimshuaibseo.gumroad.com)**
+
+The price is at its lowest right now — this is the pre-promotion rate before the official launch. If you have read this far, you already know whether it is for you.
