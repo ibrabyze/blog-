@@ -323,51 +323,55 @@ article table strong {
   margin-bottom: 0.5rem;
 }
 
-/* Seamless Dark-Theme Table Styling */
+/* Clean, Mature Dark SaaS Table */
 table {
   width: 100% !important;
   border-collapse: separate !important;
   border-spacing: 0 !important;
-  margin: 2.5rem 0 !important;
-  font-size: 0.92rem !important;
+  margin: 2rem 0 !important;
+  font-size: 0.95rem !important;
   text-align: left !important;
-  background-color: transparent !important; /* Blends directly into page background */
-  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background-color: #11151D !important; /* Dark card surface matching your theme */
+  border: 1px solid #202632 !important; /* Soft card outer border */
   border-radius: 8px !important;
   overflow: hidden !important;
 }
 
-/* Header Styling */
+/* Header Row */
 th {
-  background-color: rgba(255, 255, 255, 0.03) !important;
-  color: #F5B301 !important; /* Exact gold accent matching your header/links */
+  background-color: #161B26 !important;
+  color: #F5B301 !important; /* Exact Brand Gold matching site logo & links */
   font-size: 0.8rem !important;
   font-weight: 700 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.05em !important;
   padding: 14px 18px !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-bottom: 1px solid #202632 !important;
+  border-right: none !important; /* Removes vertical grid lines */
+  white-space: nowrap !important;
 }
 
-/* Table Cells */
+/* Data Cells */
 td {
   padding: 14px 18px !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
-  color: #9CA3AF !important; /* Muted reading text */
+  border-bottom: 1px solid #1A202C !important;
+  border-right: none !important; /* Removes vertical grid lines */
+  color: #D1D5DB !important;
+  background-color: transparent !important;
 }
 
-/* Remove bottom border on final row */
+/* Remove bottom border on the last row */
 tr:last-child td {
   border-bottom: none !important;
 }
 
-/* Highlighted Gold Row Text */
+/* Gold Highlight for Bolding inside cells */
 td strong,
 td b {
   color: #F5B301 !important;
 }
 
-/* Alternating Subtle Row Hover */
+/* Subtle Row Hover */
 tr:hover td {
   background-color: rgba(255, 255, 255, 0.02) !important;
 }
